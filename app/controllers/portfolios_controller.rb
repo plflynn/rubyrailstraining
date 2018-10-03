@@ -45,5 +45,6 @@ class PortfoliosController < ApplicationController
     @portfolio_item.destroy
     respond_to do |format|
       format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
+    end
   end
 end
